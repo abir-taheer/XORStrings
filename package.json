@@ -1,7 +1,13 @@
 {
 	"name": "xor-string",
 	"dependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^8.2.0",
+		"nyc": "^15.1.0",
 		"prettier": "^2.1.2"
+	},
+	"scripts": {
+		"test": "npx nyc mocha"
 	},
 	"prettier": {
 		"useTabs": true

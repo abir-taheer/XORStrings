@@ -7,3 +7,5 @@ function xorString(str, key) {
 				char.charCodeAt(0) ^ key[index % key.length].charCodeAt(0)
 		);
 }
+
+module.exports = xorString;
