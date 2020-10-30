@@ -1,0 +1,9 @@
+{
+	"name": "xor-string",
+	"dependencies": {
+		"prettier": "^2.1.2"
+	},
+	"prettier": {
+		"useTabs": true
+	}
+}
