@@ -1,5 +1,5 @@
 function xorString(str, key) {
-	const chars = [...str];
+	const chars = [...str.trim()];
 
 	return chars
 		.map(
